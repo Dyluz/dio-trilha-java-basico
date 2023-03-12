@@ -36,7 +36,7 @@ public class SmartTv{
     }
 
     public void mudarCanal(int novoCanal){
-//Aqui surge um novo parametro (novo canal - como se perguntasse: Qual canal?)   
+//Aqui surge um novo parâmetro (novo canal - como se perguntasse: Qual canal?)   
     canal = novoCanal;   
 
 

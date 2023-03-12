@@ -5,11 +5,11 @@ public class Usuario { //Esta classe é o usuário interagindo.
 
         SmartTv smartTv = new SmartTv();
 /* O 1º SmartTv é como se fosse um int,String,... 
-Aqui nomeamos como smartTv e criamos um novo SmartTv (Orient. a obj.) p/ criar uma classe p/ilustrar a interação dos métodos, atributos, etc.*/
+Aqui nomeamos como smartTv e criamos um novo SmartTv (Orient. a obj.) e criamos uma classe p/ilustrar a interação dos métodos, atributos, etc.*/
         System.out.println("A Tv está ligada? " + smartTv.ligada);
         System.out.println("Em qual canal está? " + smartTv.canal);
         System.out.println("Qual o volume da Tv? " + smartTv.volume);
-//Ao digitar Sys selecione no menu suspenso sysout para auto-completar imprimir se desejar.
+//Ao digitar Sys selecione no menu suspenso sysout para auto-completar imprimir, se desejar.
     
 //Ligando/Desligando a TV
 
