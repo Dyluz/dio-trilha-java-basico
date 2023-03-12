@@ -1,5 +1,7 @@
-public class SmartTv{
-//Esta classe é o objeto TV
+public class SmartTv{ //Esta classe é o objeto TV.
+/*Nossa classe possue 3 características (logo abaixo) e elas são a 
+níveis da classe. Toda a minha classe pode acessar.*/
+
     boolean ligada = false; //Porque declaramos: está desligada.
     int canal = 1;
     int volume = 25;
@@ -36,9 +38,10 @@ public class SmartTv{
     }
 
     public void mudarCanal(int novoCanal){
-//Aqui surge um novo parâmetro (novo canal - como se perguntasse: Qual canal?)   
+/*Aqui surge um novo parâmetro (novo canal - como se perguntasse: 
+Qual canal?).*/   
     canal = novoCanal;   
-
-
+/* A variável mudarCanal consegue acessar a variável canal pois é da 
+ * classe SmartTv. Já o novoCanal não é acessado fora da classe mudarCanal.*/
     }
 }
