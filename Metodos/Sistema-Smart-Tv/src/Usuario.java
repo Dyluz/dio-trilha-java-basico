@@ -1,8 +1,11 @@
-public class Usuario { //Esta é o usuário interagindo.
+public class Usuario { //Esta classe é o usuário interagindo.
     public static void main(String[] args) throws Exception {
-        
+   
+//Considerações Iniciais
+
         SmartTv smartTv = new SmartTv();
-/* O 1º SmartTv é como se fosse um int,String,... Aqui nomeamos como smartTv e criamos um novo SmartTv (Orient. a obj.) p/ criar uma classe p/ilustrar a interação dos métodos, atributos, etc.*/
+/* O 1º SmartTv é como se fosse um int,String,... 
+Aqui nomeamos como smartTv e criamos um novo SmartTv (Orient. a obj.) p/ criar uma classe p/ilustrar a interação dos métodos, atributos, etc.*/
         System.out.println("A Tv está ligada? " + smartTv.ligada);
         System.out.println("Em qual canal está? " + smartTv.canal);
         System.out.println("Qual o volume da Tv? " + smartTv.volume);

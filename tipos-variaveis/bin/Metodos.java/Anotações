@@ -1,0 +1,65 @@
+ - Uma classe é definida por atributos e métodos.
+ - Atributos, em sua maioria, são variáveis de diferentes
+tipos e valores.
+ - Os métodos correspondem a função ou sub-rotinas disponíveis dentro de nossas classes.
+     
+     //==============================//
+
+  public double somar (int num1, num2){
+        //Logica - finalidade do método.
+        //Sabemos que quando usamos um método 
+        //que returna algo finalizamos com return.
+     return ... ;
+  }
+        //==============================//
+    public void imprimir(String texto){}
+        // Lógica - finalidade do metodo
+        // Não presica return pois não tem resultado para 
+        //retornar (VOID)
+
+     //==============================//
+
+    public double dividir (int dividendo, int divisor) throws Exception{}
+//Throws Exception - método que poderá gerar uma exceção, ou seja,
+// neste caso não há como dividir por zero então deve-se estar preparado.
+
+     //==============================//
+
+    private void metodoPrivado(){}
+//Este método não pode ser visto por outras classes no projeto.
+          
+    //==============================//
+
+/* Métodos (ação) - função ou sub-rotinas dentro da classe 
+ * OBS:
+ * - Deve ser nomeado como verbo;
+ * - Seguir camelCase (Todas as letras em minúscula exceto a 
+ * 1ª letra da 2ª palavra). Ex.:
+ * calcularImposto(){}
+ * concluirProcessamento() {}
+ * 
+ * ATENÇÃO: Em Java não existe o conceito de métodos globais.
+ * Todos oas métodos devem SEMPRE ser definidos dentro de uma 
+ * classe.
+ * 
+ * 1. Qual a proposta principal do método?
+ * 2. Qual o tipo de retorno esperado após executar o método?
+ * 
+ * #### Caso o método não retorne nenhum valor, ele será 
+ * representado pela palavra-chave VOID.####
+ * 
+ * 3. Quais os parâmetros serão necessários para a execução do
+ * método?
+ * 4. O método possui o risco de apresentar alguma exceção?
+ * 5. Qual a visibilidade do método?
+ * 
+ * -  Visível a toda a aplicação?
+ * - somente em mesmo pacotes?
+ * - através de herança? ou
+ * - somente a nível a própria classe?
+ * 
+ * 
+ * 
+ * 
+ * 
+*/

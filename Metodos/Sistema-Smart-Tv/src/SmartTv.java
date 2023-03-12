@@ -1,6 +1,6 @@
 public class SmartTv{
-//Está classe é o objeto TV
-    boolean ligada = false; //Porque está desligada.
+//Esta classe é o objeto TV
+    boolean ligada = false; //Porque declaramos está desligada.
     int canal = 1;
     int volume = 25;
 
@@ -19,7 +19,7 @@ public class SmartTv{
     }
 
     public void desligar(){
-        ligada = false; //Porque colocamos false como sendo desligada.
+        ligada = false; //Porque colocamos ligada como false tornando-se  desligada.
 
     }
 
@@ -38,7 +38,7 @@ public class SmartTv{
     public void mudarCanal(int novoCanal){
 //Aqui surge um novo parametro (novo canal - como se perguntasse: Qual canal?)   
     canal = novoCanal;   
-//Por que não imprimir aqui? Pois ele será chamado aqui e deixaremos o usuário decidir.
+
 
     }
 }
