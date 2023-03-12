@@ -9,9 +9,9 @@ Aqui nomeamos como smartTv e criamos um novo SmartTv (Orient. a obj.) p/ criar u
         System.out.println("A Tv está ligada? " + smartTv.ligada);
         System.out.println("Em qual canal está? " + smartTv.canal);
         System.out.println("Qual o volume da Tv? " + smartTv.volume);
-//Ao digitar Sys selecione no menu suspenso sysout para auto-completar imprimir
+//Ao digitar Sys selecione no menu suspenso sysout para auto-completar imprimir se desejar.
     
-//Ligando/Desligando
+//Ligando/Desligando a TV
 
         smartTv.ligar();
 

@@ -1,10 +1,10 @@
 public class SmartTv{
 //Esta classe é o objeto TV
-    boolean ligada = false; //Porque declaramos está desligada.
+    boolean ligada = false; //Porque declaramos: está desligada.
     int canal = 1;
     int volume = 25;
 
-//criando métodos que manipulam um estado.
+//Criando métodos que manipulam um estado.
 
     public void aumentarVolume(){
         volume++; // O mesmo que: volume = volume + 1
